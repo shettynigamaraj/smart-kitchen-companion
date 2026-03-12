@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Camera, ShoppingCart, ChefHat, Clock, AlertTriangle } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { useInventory } from "@/contexts/InventoryContext";
+import heroImage from "@/assets/kitchen-hero.jpg";
 
 const Dashboard = () => {
   const navigate = useNavigate();
