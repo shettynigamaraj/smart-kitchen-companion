@@ -1,0 +1,4 @@
+project_id = "fomyrmjojwhqgawhlvde"
+
+[functions.kitchen-ai]
+verify_jwt = false
