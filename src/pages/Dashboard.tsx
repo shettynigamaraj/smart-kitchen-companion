@@ -42,7 +42,7 @@ const Dashboard = () => {
 
   return (
     <div className="min-h-screen bg-background p-4 pb-8 max-w-lg mx-auto">
-      <div className="mb-8 animate-fade-in">
+      <div className="mb-4 animate-fade-in">
         <h1 className="text-3xl font-extrabold font-heading text-foreground">
           Smart Kitchen 🍳
         </h1>
@@ -50,6 +50,10 @@ const Dashboard = () => {
           {ingredients.length} ingredients · {recipes.length} recipes
         </p>
       </div>
+
+      <Card className="mb-6 overflow-hidden animate-scale-in">
+        <img src={heroImage} alt="Smart kitchen with fresh ingredients" className="w-full h-36 object-cover" />
+      </Card>
 
       {lowStock.length > 0 && (
         <Card className="mb-6 p-4 border-secondary bg-kitchen-peach animate-scale-in">
